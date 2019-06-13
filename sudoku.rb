@@ -79,4 +79,7 @@ class SudokuGame
 end
 
 
-game = SudokuGame.from_file("puzzles/sudoku1.txt")
+board = SudokuGame.from_file("puzzles/sudoku1.txt")
+
+
+SudokuGame.new(board)
